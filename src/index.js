@@ -3,16 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { HasRouter} from 'react-router-dom'
+import { HasRouter} from 'react-router-dom';
 import { CartProvider } from 'react-use-cart';
-;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HasRouter>
-  <CartProvider>
-   <App />
-   </CartProvider>
+    <CartProvider>
+      <App />
+    </CartProvider>
   </HasRouter>
 );
 
