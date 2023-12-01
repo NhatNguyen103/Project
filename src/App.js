@@ -19,14 +19,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path="/SignIn" element={<SignIn/>} />
-     <Route path="/signup" element={<SignUp /> } />
-     <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/signup" element={<SignUp /> } />
+        <Route path="/checkout" element={<CheckoutPage />} />
         <Route path='/About' element={<About/>}/>
         <Route path='/Categories' element={<Categories/>}/>
         <Route path='/Categories/:id' element={<FanDetail/>}/>
         <Route path='/Gallery' element={<Gallery/>}/>
         <Route path='/Contact' element={<Contact/>}/>
-
       </Routes>
       <Navbar/>
     </div>
