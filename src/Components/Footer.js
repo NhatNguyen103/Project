@@ -25,14 +25,22 @@ function Footer() {
               <h3>COMPANY</h3>
               <hr className="Hr" />
 
-              <p><a href="a" className="text-white link1">Home</a></p>
-              <p><a href="a" className="text-white link1">About</a></p>
-              <p><a href="a" className="text-white link1">Categories</a></p>
-              <p><a href="a" className="text-white link1">Gallery</a></p>
+              <p><a href="/" className="text-white link1">Home</a></p>
+              <p><a href="/About" className="text-white link1">About</a></p>
+              <p><a href="/Categories" className="text-white link1">Categories</a></p>
+              <p><a href="/Gallery" className="text-white link1">Gallery</a></p>
             </div>
             <div className="col-md-3 col-sm-6">
             <a href={googleMapsLink} className="text-white  " style={{textDecoration: "none"}}>
-                <i className="fas fa-map-marker-alt" style={{ width: '30px' }}></i> View on Google Maps
+                <i className="fas fa-map-marker-alt" style={{ width: '30px' }}></i>  <iframe
+                title="Google Map"
+                src="/Image/anh1.png"
+                width="100%"
+                height="200"
+                frameBorder="0"
+                style={{ border: 0 }}
+                allowFullScreen
+              ></iframe>
               </a>
             </div>
             <div className="col-md-3 col-sm-6">
@@ -43,10 +51,10 @@ function Footer() {
               <p>info@fanofan.com</p>
               <p>+ 01 234 567 88</p>
               <p>+ 01 234 567 89</p>
-              <a href="a" className="text-white"><i className="fab fa-facebook-f" style={{ width: '30px' }}></i></a>
-              <a href="a" className="text-white"><i className="fab fa-instagram" style={{ width: '30px' }}></i></a>
-              <a href="a" className="text-white"><i className="fab fa-twitter" style={{ width: '30px' }}></i></a>
-              <a href="a" className="text-white"><i className="fab fa-google" style={{ width: '30px' }}></i></a>
+              <a href="https://www.facebook.com" className="text-white"><i className="fab fa-facebook-f" style={{ width: '30px' }}></i></a>
+              <a href="https://www.instagram.com" className="text-white"><i className="fab fa-instagram" style={{ width: '30px' }}></i></a>
+              <a href="https://twitter.com" className="text-white"><i className="fab fa-twitter" style={{ width: '30px' }}></i></a>
+              <a href="https://www.google.com" className="text-white"><i className="fab fa-google" style={{ width: '30px' }}></i></a>
             </div>
            
           </div>
